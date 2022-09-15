@@ -57,32 +57,31 @@ img {
 
 .header {
   margin: 0 auto;
-  border-bottom: 1px solid #ECECEC;
-  max-width: 1600px;
+  border-bottom: 1px solid #ececec;
   width: 100%;
 }
 
 .hero {
   max-width: 1600px;
   width: 100%;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background-color: var(--dark-color-footer);
-    border-top: 1px solid #ececec;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: var(--dark-color-footer);
+  border-top: 1px solid #ececec;
 }
 
 .hero-title {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 696px;
-    margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 696px;
+  margin-bottom: 30px;
 }
 
 /* Задає характеристики кнопки героя */
-.hero-button{
+.hero-button {
   display: inline-block;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -91,12 +90,12 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-   letter-spacing: 0.06em;
-   color: var(--white-color);
-   background: var(--accent-color);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-cursor: pointer;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -141,22 +140,18 @@ button.primery-link {
   overflow: hidden;
 }
 
-.advantages{
-    padding-top: 94px;
-    padding-bottom: 47px;
+.advantages {
+  padding-top: 94px;
+  padding-bottom: 47px;
 }
 
-.advantages-flex{
+.advantages-flex {
   display: flex;
   justify-content: space-between;
 }
 
 .advantages-list {
   display: inline-block;
-}
-
-.advantages-list:not(:last-child) {
-  /* margin-right: 30px; */
 }
 
 .advantages-title {
@@ -168,21 +163,26 @@ button.primery-link {
 }
 
 .advantages-descr {
-  line-height: 1.171;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--main-color-text);
 }
 
 /* Визначає характеристики секції "Чим ми займаємося" */
-.whatwedo{
-    padding-top: 47px;
-    padding-bottom: 94px;
+.whatwedo {
+  padding-top: 47px;
+  padding-bottom: 94px;
 }
 
-.whatwedo-flex{
+.whatwedo-flex {
   display: flex;
- justify-content: space-between;
+  justify-content: space-between;
 }
 
-.whatwedo-title, .team-title {
+.whatwedo-title,
+.team-title {
   text-align: center;
   font-size: 36px;
   line-height: 1.167;
@@ -198,7 +198,7 @@ button.primery-link {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
-background-color: var(--light-grey-color);
+  background-color: var(--light-grey-color);
 }
 
 .team-name {
@@ -218,14 +218,15 @@ background-color: var(--light-grey-color);
 }
 
 .team-box {
-    width: 270px;
-    height: 368px;
-    background: var(--white-color);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+  width: 270px;
+  height: 368px;
+  background: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.team-flex{
+.team-flex {
   justify-content: space-between;
 }
 
@@ -245,7 +246,7 @@ li {
 .logo,
 .logo-footer {
   display: inline-block;
-      font-family: 'Raleway';
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -253,8 +254,8 @@ li {
 }
 
 .logo-footer {
-    color: var(--white-color);
-    margin-bottom: 20px;
+  color: var(--white-color);
+  margin-bottom: 20px;
 }
 
 .logo-accent {
@@ -269,21 +270,21 @@ li {
 .nav-link {
   display: inline-block;
   padding-top: 24px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--dark-color-text);
-  }
+}
 
-li:first-child .nav-link{
+li:first-child .nav-link {
   padding-left: 0;
 }
 
-li:last-child .nav-link{
+li:last-child .nav-link {
   padding-right: 0;
 }
 
@@ -298,8 +299,7 @@ li:last-child .nav-link{
   align-items: center;
 }
 
-.whatwedo-flex
-.advantages-flex,
+.whatwedo-flex .advantages-flex,
 .section-flex,
 .team-flex,
 .portfolio-flex {
@@ -327,13 +327,10 @@ li:last-child .nav-link{
   color: var(--accent-color);
 }
 
-/* Визначає характеристики посилань у футері */
-.footer{
+.footer {
   margin: 0 auto;
-  max-width: 1600px;
   width: 100%;
-    background-color: var(--dark-color-footer);
-    padding-left: 215px;
+  background-color: var(--dark-color-footer);
 }
 .footer-link {
   line-height: 1.71;
@@ -346,22 +343,25 @@ li:last-child .nav-link{
 }
 
 .footer-box {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+  min-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 /* Портфоліо */
 
 .portfolio-container {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .portfolio-flex {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0;
 }
 
@@ -413,18 +413,18 @@ li:last-child .nav-link{
   color: var(--main-color-text);
 }
 
-.portfolio-box{
-    display: inline-block;
-    width: 370px;
-height: 404px;
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
+.portfolio-box {
+  display: block;
+  padding: 20px 24px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 /* Задає характеристики кнопок портфоліо*/
 .button {
   display: inline-block;
   padding: 6px 22px;
-     background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
