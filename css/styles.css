@@ -9,13 +9,6 @@
   --light-grey-color: #f5f4fa;
 }
 
-.container {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 h1,
 h2,
 h3,
@@ -55,11 +48,23 @@ img {
   display: block;
 }
 
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .header {
+  margin: 0 auto;
   border-bottom: 1px solid #ECECEC;
+  max-width: 1600px;
+  width: 100%;
 }
 
 .hero {
+  max-width: 1600px;
+  width: 100%;
     padding-top: 200px;
     padding-bottom: 200px;
     margin-left: auto;
@@ -76,6 +81,7 @@ img {
     margin-bottom: 30px;
 }
 
+/* Задає характеристики кнопки героя */
 .hero-button{
   display: inline-block;
   padding-top: 10px;
@@ -90,17 +96,14 @@ img {
    background: var(--accent-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+cursor: pointer;
 }
 
-/* Задає характеристики кнопки героя */
-.main-button {
-  display: inline-block;
-  background-color: var(--accent-color);
-  color: var(--white-color);
-  line-height: 1.88;
-  letter-spacing: 0.06em;
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #2773b1;
+  color: var(--light-grey-color);
 }
-
 /* Задає характеристики кнопок при ховері й фокусі */
 .button:focus,
 .button:hover {
@@ -226,14 +229,6 @@ background-color: var(--light-grey-color);
   justify-content: space-between;
 }
 
-/* > li:not(:last-child) {
-    margin-right: 29px;
-  } */
-
-footer {
-  background-color: var(--dark-color-footer);
-}
-
 address {
   font-style: normal;
 }
@@ -334,6 +329,9 @@ li:last-child .nav-link{
 
 /* Визначає характеристики посилань у футері */
 .footer{
+  margin: 0 auto;
+  max-width: 1600px;
+  width: 100%;
     background-color: var(--dark-color-footer);
     padding-left: 215px;
 }
@@ -348,7 +346,7 @@ li:last-child .nav-link{
 }
 
 .footer-box {
-     padding-top: 60px;
+    padding-top: 60px;
     padding-bottom: 60px;
   }
 
